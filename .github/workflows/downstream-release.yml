@@ -10,6 +10,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.PAT }}
-          repository: username/my-repo
+          repository: SakifSurur/downstream-silver-spork
           event-type: release
           client-payload: '{"version": "$GITHUB_REF"}'
